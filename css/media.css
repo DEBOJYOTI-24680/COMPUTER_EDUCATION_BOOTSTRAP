@@ -1,0 +1,173 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .navbar-brand{
+        width: 162px;
+    }
+    .navbar-nav{
+        padding: 20px 0;
+        align-items: center;
+    }
+    .nav-item{
+        margin: 30px 0;
+    }
+    .banner-image{
+        width: 300px;
+    }
+    .banner-sec p{
+        font-size: 13px;
+    }
+    .banner-sec button{
+        font-size: 22px;
+        padding: 18px 27px 19px 26px;
+    }
+    .cmn-card{
+        margin: 0 auto 37px;
+        max-width: 221px;
+    }
+    .card-text{
+        font-size: 26px;
+    }
+    .footer-logo{
+        margin: 0 auto 26px;
+        width: 150px;
+    }
+    .footer-1 p{
+        font-size: 13px;
+    }
+    .footer-head, .cmn-footer .footer-links li{
+        font-size: 16px;
+    }
+    .footer-title p{
+        font-size: 16px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-brand{
+        width: 172px;
+    }
+    .navbar-nav{
+        padding: 20px 0;
+        align-items: center;
+    }
+    .nav-item{
+        margin: 30px 0;
+    }
+    .banner-image{
+        width: 360px;
+    }
+    .banner-child{
+        width: 80%;
+        margin: auto;
+    }
+    .banner-sec p{
+        font-size: 14px;
+    }
+    .banner-sec button{
+        font-size: 25px;
+        padding: 20px 30px 21px 29px;
+    }
+    .cmn-card{
+        margin: 0 auto 37px;
+        max-width: 221px;
+    }
+    .card-text{
+        font-size: 30px;
+    }
+    .footer-logo{
+        margin: 0 auto 26px;
+        width: 180px;
+    }
+    .footer-1 p{
+        font-size: 14px;
+    }
+    .footer-head, .cmn-footer .footer-links li{
+        font-size: 17px;
+    }
+    .footer-title p{
+        font-size: 17px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-brand{
+        width: 182px;
+    }
+    .navbar-nav{
+        padding: 20px 0;
+        align-items: center;
+    }
+    .nav-item{
+        margin: 30px 0;
+    }
+    .banner-image{
+        width: 410px;
+    }
+    .banner-child{
+        width: 80%;
+        margin: auto;
+    }
+    .banner-sec p{
+        font-size: 15px;
+    }
+    .banner-sec button{
+        font-size: 28px;
+        padding: 23px 34px 24px 23px;
+    }
+    .cmn-card{
+        margin: 0 auto 37px;
+        max-width: 221px;
+    }
+    .card-text{
+        font-size: 33px;
+    }
+    .footer-logo{
+        margin: 0 auto 26px;
+        width: 200px;
+    }
+    .footer-1 p{
+        font-size: 15px;
+    }
+    .footer-head, .cmn-footer .footer-links li{
+        font-size: 18px;
+    }
+    .footer-title p{
+        font-size: 18px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-brand{
+        width: 192px;
+    }
+    .nav-item{
+        margin-right: 54px;
+    }
+    .banner-image{
+        width: 434px;
+    }
+    .banner-sec p{
+        font-size: 16px;
+    }
+    .banner-sec button{
+        padding: 25px 37px 26px 36px;
+    }
+    .cmn-card{
+        margin: 0 auto 37px;
+        max-width: 221px;
+    }
+    .card-text{
+        font-size: 36px;
+    }
+    .footer-logo{
+        width: 213px;
+    }
+    .footer-1 p{
+        font-size: 16px;
+    }
+    .footer-head, .cmn-footer .footer-links li{
+        font-size: 20px;
+    }
+    .footer-title p{
+        font-size: 20px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}

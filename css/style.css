@@ -1,0 +1,168 @@
+/* UNIVERSAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --first-color: #04676E;
+    --second-color: #FFFFFF;
+    --third-color: #022528;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/* COMMON CLASSES */
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: hidden;
+}
+section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+/* HEADER SECTION */
+.header-sec{
+   position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: var(--second-color);
+    width: 100%;
+    z-index: 999; 
+}
+.navbar{
+    padding-block: 39px;
+}
+.navbar-brand{
+    width: 192px;
+}
+.nav-item{
+    font-size: 24px;
+    margin-right: 94px;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: var(--third-color);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    transition: width 0.4s ease-in-out;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+/* BANNER SECTION */
+.banner-sec{
+    background: url(../images/banner-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.banner-image{
+    width: 434px;
+    margin-bottom: 14px;
+}
+.banner-sec p{
+    margin-bottom: 59px;
+    font-weight: 500;
+}
+.banner-sec button{
+    font-family: "Aclonica", sans-serif;
+    font-size: 32px;
+    color: var(--first-color);
+    padding: 25px 37px 26px 36px;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+}
+.banner-sec button:hover{
+    background-color: var(--first-color);
+    color: var(--second-color);
+}
+/* CARD SECTION */
+.card-sec{
+    background-color: rgba(228, 250, 252, 0.58);
+    padding: 70px 0 102px;
+}
+.card-image{
+    width: 92px;
+}
+.card-image img{
+    width: 100%;
+}
+.cmn-card{
+    padding: 28px 64px 28px 65px;
+    object-fit: cover;
+    transition: transform 1.4s ease-in-out;
+}
+.cmn-card:hover{
+    transform: rotateY(180deg);
+}
+.card-text{
+    font-family: "Abyssinica SIL", serif;
+    color: var(--first-color);
+    font-size: 36px;
+}
+.active{
+    width: 123px;
+}
+/* FOOTER SECTION */
+.footer-sec{
+    background-color: var(--third-color);
+    padding-top: 59px;
+}
+.footer-logo{
+    display: block;
+    width: 213px;
+    margin-bottom: 26px;
+}
+.cmn-footer{
+    margin-bottom: 38px;
+}
+.footer-head{
+    font-size: 20px;
+}
+.footer-1 p{
+    font-weight: 500;
+}
+.cmn-footer .footer-links{
+    padding-left: 0;
+}
+.cmn-footer .footer-links li{
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.footer-2 .footer-links li{
+    color: var(--second-color);
+    list-style-type: disc;
+    list-style-position: inside;   
+}
+.footer-title p{
+    font-size: 20px;
+}
